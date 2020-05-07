@@ -31,6 +31,7 @@ function writeToLog(
 
 function add() {
   const enteredNumber = getUserNumberInput();
+  console.log('INPUT', enteredNumber, currentResult)
   const initialResult = currentResult;
   currentResult += enteredNumber;
   createAndWriteOutput('+', initialResult, enteredNumber);
